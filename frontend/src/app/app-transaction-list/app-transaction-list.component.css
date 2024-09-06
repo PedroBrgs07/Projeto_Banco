@@ -1,0 +1,36 @@
+.list-section {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li.expense {
+    color: #d9534f;
+  }
+  
+  li.revenue {
+    color: #5bc0de;
+  }
+  
+  button.delete {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  button.delete:hover {
+    background-color: #c9302c;
+  }
+  
